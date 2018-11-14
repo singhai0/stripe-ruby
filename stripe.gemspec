@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.license = "MIT"
 
   s.add_dependency("faraday", "~> 0.10")
+  s.add_dependency("net-http-persistent", "~> 3.0")
 
   s.files = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- test/*`.split("\n")
